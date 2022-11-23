@@ -8,7 +8,7 @@
     }
   },
   "Section": {
-    "body": { "string": {} },
+    "body": { "loremParagraphs": { "minLength": 200, "maxLength": 300 } },
 
     "post": {
       "belongsTo": "Post"
