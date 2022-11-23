@@ -4,11 +4,11 @@
       "string": ["hero", "paragraph"]
     },
     "sections": {
-      "hasMany": "Section",
-      "limit": 5
+      "hasMany": "Section"
     }
   },
   "Section": {
+    "limit": 5,
     "module": {
       "string": {}
     },
