@@ -1,7 +1,7 @@
 {
   "Post": {
     "title": {
-      "string": ["hero", "paragraph"]
+      "string": {}
     },
     "sections": {
       "hasMany": "Section"
@@ -9,7 +9,7 @@
   },
   "Section": {
     "module": {
-      "string": {}
+      "string": ["hero", "paragraph"]
     },
     "content": { "loremParagraphs": { "minLength": 200, "maxLength": 300 } },
 
