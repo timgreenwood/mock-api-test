@@ -1,7 +1,7 @@
 {
   "Post": {
     "title": {
-      "loremWords": { "minLength": 1, "maxLength": 4 }
+      "loremWords": { "minLength": 3, "maxLength": 4 }
     },
     "sections": {
       "hasMany": "Section"
