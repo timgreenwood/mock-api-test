@@ -4,7 +4,7 @@
       "string": {}
     },
     "content": {
-      "string": {}
+      "loremParagraphs": { "minLength": 200, "maxLength": 300 }
     },
     "published": {
       "boolean": {}
