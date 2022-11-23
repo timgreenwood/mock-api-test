@@ -1,14 +1,18 @@
 {
   "Post": {
     "title": {
-      "string": {}
+      "string": ["hero", "paragraph"]
     },
     "sections": {
-      "hasMany": "Section"
+      "hasMany": "Section",
+      "limit": 5
     }
   },
   "Section": {
-    "body": { "loremParagraphs": { "minLength": 200, "maxLength": 300 } },
+    "module": {
+      "string": {}
+    },
+    "content": { "loremParagraphs": { "minLength": 200, "maxLength": 300 } },
 
     "post": {
       "belongsTo": "Post"
