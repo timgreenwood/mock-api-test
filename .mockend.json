@@ -3,11 +3,17 @@
     "title": {
       "string": {}
     },
-    "content": {
-      "loremParagraphs": { "minLength": 200, "maxLength": 300 }
+    "sections": {
+      "hasMany": "Section"
     },
     "published": {
       "boolean": {}
     }
+  },
+  "Section": {
+    "post": {
+      "belongsTo": "Post"
+    },
+    "loremParagraphs": { "minLength": 200, "maxLength": 300 }
   }
 }
